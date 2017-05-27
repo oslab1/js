@@ -1,7 +1,7 @@
 var currentEncoding = defaultEncoding;
 var targetEncodingCookie = "targetEncoding" + cookieDomain.replace(/\./g,"");
 var targetEncoding = ( getCookie(targetEncodingCookie) == null ? defaultEncoding : getCookie(targetEncodingCookie) );
-var translateButtonObject; 
+var translateButtonObject;
 
 function translateText( txt )
 {
